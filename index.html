@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+    .mySlides {display:none;}
+    header {
+        background-image: url("whiteboard-1.jpg");
+        background-size: cover;
+    }
+    img {
+        border-radius: 3%;
+    }
+    
+
+</style>
+</head>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-red w3-hover-white"><i class="fa fa-home"></i></a>
+    <a href="#problem" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">the problem</a>
+    <a href="#solution" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">our solution</a>
+    <a href="#progress" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">our progress</a>
+    <!-- <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">our team</a> -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">the problem</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">our solution</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">our progress</a>
+    <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large">our team</a> -->
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-margin w3-jumbo" style="font-weight: bold;">WATTerWagon</h1>
+    <p class="w3-xlarge" style="font-weight: bold;">A solar-powered solution for water transportation.</p>
+    <a href="#problem" ><button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">About</button></a>  </header>
+</header>
+
+<body>
+<!-- First Grid -->
+<div id="problem" class="w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <h1>the problem</h1>
+      <h5 class="w3-padding-32">according to the UN...</h5>
+
+      <p class="w3-text-grey">
+        the average distance that women and children walk for water in rural Africa and Asia is 3.7 miles. 
+        These distances are long and arduous when transporting water by hand. Additionally, travelers are left exposed to terrors such as 
+        robbery or kidnapping. Water-focused NGOs work to bring safe drinking water to communities in developing nations by building wells and giving away water filtration devices. 
+        These have proven to be priceless additions to these water-scarce areas, but they do not address transportation issues. Those 
+        who don’t live in close proximity to wells will either resort to closer, contaminated water sources or travel absurd distances 
+        to obtain clean water. The WATTerWagon allows for faster transportation of much higher quantities of water. In turn, this 
+        would reduce the amount of trips to a water source and increase the speed of these trips, decreasing the risk of harm and ultimately buying time 
+        to focus on important activities such as education and income generation.
+      </p>
+    </div>
+
+    <div class="w3-half w3-center">
+      <img src="carrying-water.jpg" class="w3-image">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div id="solution" class="w3-padding-64 w3-container">
+    <div class="w3-row-padding">
+
+        <div class="w3-half w3-center">
+            <img src="mvp-2.PNG" class="w3-image">
+        </div>
+
+        <div class="w3-half">
+            <h1>our solution</h1>
+            <h5 class="w3-padding-32">the WATTerWagon</h5>
+    
+            <p class="w3-text-grey">The WATTerWagon is a solar-powered, self-charging water transportation cart that utilizes assistive
+                motors and a responsive throttle system to quickly transport higher quantities of water. We are unique and best able to 
+                help get one step closer to ending water scarcity because of our focus on sustainability. We have a strong, evidence-based 
+                sustainable implementation model to ensure the empowerment of the communities that we will operate in, as well as able 
+                to generate favorable impact metrics for NGO stakeholders. By implementing a microbusiness model in the regions in which we operate, we will ensure that communities maintain our product without further intervention and dependency. We have also applied for a provisional patent for our unique dynamic force sensing handle, which allows for efficient battery usage by providing an assist, rather than full power that would make the operation of the device cumbersome. 
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Third Grid -->
+<div id="progress" class="w3-light-grey w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <!-- <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i> -->
+      </div>
+  
+      <div class="">
+        <h1>our progress</h1>
+        <h5 class="w3-padding-32">since January 2019..</h5>
+  
+        <p class="w3-text-grey">
+            The WATTerWagon began as an idea in January 2019 and came to reality when it won the Quinn Prize for Best International Social Venture in the 
+            GW New Venture Competition. Since then, the WATTerWagon team has participated in a few startup accelerators and mentorship courses all while 
+            iterating on their physical designs. 
+        </p>
+
+        <div class="w3-stretch">
+          
+          <div class="w3-content w3-display-container">
+
+            <div class="w3-display-container mySlides"><img src="whiteboard-2.jpg" style="width:100%;height:600px;object-fit:cover;"></div>
+            <div class="w3-display-container mySlides"><img src="whiteboard-4.jpg"  style="width:100%;height:600px;object-fit:cover;"></div>
+            <div class="w3-display-container mySlides"><img src="mvp-1.png"  style="width:100%;height:600px;object-fit:cover;"></div>
+            <div class="w3-display-container mySlides"><img src="mvp-1.jpg"  style="width:100%;height:600px;object-fit:cover;"></div>
+            <div class="w3-display-container mySlides"><img src="mvp-2.PNG" style="width:100%;height:600px;object-fit:cover;"></div>
+            <div class="w3-display-container mySlides"><img src="ct-12.jpg"  style="width:100%;height:600px;object-fit:cover;"></div>
+            <div class="w3-display-container mySlides"><img src="akash-2.jpg"  style="width:100%;height:600px;object-fit:cover;"></div>
+
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+          
+          </div>
+          
+          <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          </script>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-large">More to come! Due to COVID-19, product development has been stalled, but workarounds are underway.</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
